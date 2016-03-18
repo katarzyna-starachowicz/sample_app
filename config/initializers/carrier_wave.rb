@@ -5,7 +5,7 @@ if Rails.env.production?
       :provider              => 'AWS',
       :aws_access_key_id     => ENV['AKIAISHFXBS2SKFUCV5Q'],
       :aws_secret_access_key => ENV['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'],
-      :region                 => 'eu-central-1'
+      :region                => ENV['eu-central-1']
     }
     config.fog_directory     =  ENV['agnieszka1']
   end

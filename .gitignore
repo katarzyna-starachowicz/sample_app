@@ -18,3 +18,8 @@
 
 # Ignore Spring files.
 /spring/*.pid
+
+credentials.csv
+
+# Ignore uploaded test images.
+/public/uploads
